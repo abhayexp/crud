@@ -1,4 +1,5 @@
 # Project Name
+This project handles efficient import of a large sales CSV file into a MongoDB database, with data normalization and API endpoints for analytics like total customer count
 
 ## Prerequisites
 
@@ -12,6 +13,11 @@ Make sure you have the following installed before running the project:
 
 ---
 
+A screenshot of the normalized database schema is included to visualize entity relationships.
+    Created One Controller to get theb total number of customer 
+ router.get('/total-customers',userController.getTotalCustomers);
+
+
 ## Setup & Run Instructions
 
 1. **Clone the repository**
@@ -20,6 +26,4 @@ Make sure you have the following installed before running the project:
    cd your-repo
    node import.js
 
-
-   ## schemea image is added for reference 
  
