@@ -19,3 +19,7 @@ Make sure you have the following installed before running the project:
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
    node import.js
+
+
+   ## schemea image is added for reference 
+ 
